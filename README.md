@@ -3,11 +3,11 @@ Scrapping data from Apple app store using iTunes search API
 
 Scraps all apps from app store on basis of seller name. Results can be filtered for false positives on the basis of seller url. Url will be checked if url is passed to function and url is recived from api, as some apps do not have seller url. If any of these urls are missing then url check will not be performed.
 
-##Requirements
+## Requirements
 - Pandas
 - Requests
 
-##Usage
+## Usage
 ```
 #get data from list of companies
 input_list = [ ['google', 'google.com'], ['dnb', 'dnb.no'], ['walmart', '']]
